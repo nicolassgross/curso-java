@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Q-7</title>
+
+    <script>
+        // Mensagem
+        let mensagem = "Escolha o número do pedido"
+            mensagem += "\n\n1)SOMA"
+            mensagem += "\n2)SUBTRAÇÃO"
+            mensagem += "\n3)MULTIPLICAÇÃO"
+            mensagem += "\n4)DIVISÃO"
+
+          let operacao = prompt(mensagem)
+        // Primeiro número
+        let n1 = parseFloat(prompt("Digite o primeiro número"))
+        // Segundo número
+        let n2 = parseFloat(prompt("Digite o segundo número"))
+
+
+        // Execução da soma
+        if(operacao == 1){
+            document.write("O resultado da soma é "+ (n1+n2))
+        }
+        // Execução subtração
+        if(operacao == 2){
+            document.write("O resultado da subtração é "+ (n1-n2))
+        }
+        // Execução multiplicação
+        if(operacao == 3){
+            document.write("O resultado da multiplicação é "+ (n1*n2))
+        }
+        // Execução divisão
+        if(operacao == 4){
+            document.write("O resultado da subtração é "+ (n1/n2))
+        }
+        
+            
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
