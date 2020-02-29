@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>12 texto</title>
+
+    <script>
+       
+        // Váriavel Texto
+        let texto = "javascript"
+                     
+        // Contar Caracteres
+        document.write("A palavra "+texto+" possui "+texto.length+" caracteres<hr>")
+
+        // Maiúscula
+        document.write(texto.toUpperCase()+"<hr>") 
+        
+        // Minuscula
+        document.write(texto.toLowerCase()+"<hr>")
+
+        // Remover Caracteres
+        document.write(texto.substr(0, 4)+"<hr>")
+
+        // Remover Caracteres ²
+        document.write(texto.substring(0,4)+"<hr>")
+
+        // Trabalhando com caracteres indivudualmente
+        let indice = 0
+        let quantidade = texto.length
+
+        while(indice < quantidade){
+            document.write((indice+1)+"ª letra é: "+texto.charAt(indice)+"<br>")
+            indice++
+        }
+
+        // Procurar termo
+        document.write(texto.indexOf("j")+"<hr>")
+
+        if(texto.indexOf("v") == -1){
+            document.write("Não tem essa letra na palavra<hr>")
+        }else{
+            document.write("A letra que está na posição: "+texto.indexOf("v")+"<hr>")
+        }
+           
+        // T
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
